@@ -46,7 +46,7 @@ const editItem = async (id, name) => {
         return { status: 404, data: { message: 'Product not found' } };
     }
     
-    await productModel.editItem(id, name);
+   await productModel.editItem(id, name);
     
     const produtoEditado = {
         id: +id,

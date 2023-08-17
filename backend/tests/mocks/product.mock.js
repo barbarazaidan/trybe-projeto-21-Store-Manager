@@ -67,6 +67,10 @@ const mockProductAddItem = [
     },
   ];
 
+  const mockProductFindByIdInexistente = [
+    [],
+  ];
+
   const mockProductServiceFindAll = { status: 200, data: productList };
 
   const mockProductServiceFindById = { 
@@ -110,4 +114,5 @@ module.exports = {
     mockProductServiceFindByIdErro,
     mockProductServiceEditItem,
     mockProductServiceEditItemErro,
+    mockProductFindByIdInexistente,
 };
